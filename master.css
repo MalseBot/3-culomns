@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+@media(min-width:376px){
+    .parent{
+        position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-top: -250px;
+    }
+}
+.parent{
+    display: flex;
+    width: 900px;
+    height: 500px;
+
+}
+.sedans{
+    display: flex;
+    padding: 50px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+h2{
+ font-size: xx-large;
+ color: hsl(0, 0%, 95%);
+ font-family:  'Big Shoulders Display', cursive;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.button1{
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    width: 80%;
+    border-radius: 50px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    position: relative;
+    top: 100px;
+}
+.SUVs{
+    display: flex;
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.button2{
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    width: 80%;
+    border-radius: 50px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    position: relative;
+    top: 100px;
+}
+.Luxury{
+    display: flex;
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.button3{
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    width: 80%;
+    border-radius: 50px;
+    height: 50px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    position: relative;
+    top: 100px;
+}
+button:hover{
+    cursor: pointer;
+    filter: grayscale(1);
+}
+@media (max-width:375px){
+    .parent{
+        display: flex;
+        width: 300px;
+        height: fit-content;
+    position: relative;
+    flex-direction: column;
+    margin: 25px;
+    }
+    .button1{
+        top: 20px;
+    }
+    .button2{
+        top: 20px;
+    }
+    .button3{
+        top: 20px;
+    }
+    .sedans{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    .Luxury{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+}
