@@ -47,7 +47,7 @@ p{
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
     position: relative;
-    top: 100px;
+    top: 80px;
 }
 .SUVs{
     display: flex;
@@ -87,7 +87,7 @@ p{
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
     position: relative;
-    top: 100px;
+    top: 80px;
 }
 button:hover{
     cursor: pointer;
